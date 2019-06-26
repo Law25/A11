@@ -2,13 +2,25 @@
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 600px;
+    font-size: 100%;
 	background-color: #fffded;
-	margin: 0px 3px;
-	border: 0px #931420;
+	margin: 0px auto;
+	border: 2px solid #931420;
+	width: 600px;
 }
 
 /* the styles for the header */
+header{
+	padding: 1.5em 0 2em 0;
+	background-image: -webkit-linear-gradient(30deg,#f6bb73 0%,#f6bb73 30%,#ffffff 50%,#f6bb73 80%,#f6bb73 100%);
+	background-image: linear-gradient(30deg,#f6bb73 0%,#f6bb73 30%,#000000 50%,#f6bb73 80%,#f6bb73 100%);
+	border-bottom: 3px solid #931420;
+
+
+}
+
+
+
 header img {
 	float: left;
 }
@@ -32,10 +44,12 @@ main {
 
 /* the styles for the footer */
 footer{
+	background-color: #931420;
+	color: #FFFFFF;
 }
+footer p {
+	padding: 1em 0;
 
-footer{
-	<p>&nbsq</p>
 }
 
 h1{
